@@ -1,0 +1,8 @@
+prefix=/home/iclab/tb3_ws_RaspberryPi3/devel
+
+Name: add_tf
+Description: Description of add_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/iclab/tb3_ws_RaspberryPi3/devel
+
+Name: map_server
+Description: Description of map_server
+Version: 1.16.6
+Cflags: -I/home/iclab/tb3_ws_RaspberryPi3/src/move_base/map_server/include
+Libs: -L${prefix}/lib -lmap_server_image_loader
+Requires: roscpp nav_msgs tf2

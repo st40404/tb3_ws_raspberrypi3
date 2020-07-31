@@ -1,0 +1,8 @@
+prefix=/home/iclab/tb3_ws_RaspberryPi3/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.16.6
+Cflags: -I/home/iclab/tb3_ws_RaspberryPi3/src/move_base/voxel_grid/include
+Libs: -L${prefix}/lib -lvoxel_grid
+Requires: roscpp
